@@ -1,5 +1,4 @@
-[![](https://images.microbadger.com/badges/image/rivy/docker.intersoftlab-duplicati.svg "see: microbadger.com")]
-
+[![](https://images.microbadger.com/badges/image/rivy/docker.intersoftlab-duplicati:stable.svg)](https://microbadger.com/images/rivy/docker.intersoftlab-duplicati:stable "see: microbadger.com")
 # Supported tags and respective Dockerfile links #
   - `stable` [(Dockerfile)](https://github.com/rivy/docker.intersoftlab-duplicati/blob/master/Dockerfile)
   - `latest` [(Dockerfile)](https://github.com/rivy/docker.intersoftlab-duplicati/blob/dev/Dockerfile)

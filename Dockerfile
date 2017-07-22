@@ -1,9 +1,9 @@
 FROM mono:4.6
-MAINTAINER Dmitry  K "d.p.karpov@gmail.com"
+MAINTAINER Roy Ivy III "rivy.dev@gmail.com"
 
 ENV DUPLICATI_VER 2.0.1.64_canary_2017-06-02
 
-ENV D_CODEPAGE UTF-8 
+ENV D_CODEPAGE UTF-8
 ENV D_LANG en_US
 
 ADD ./entrypoint.sh /entrypoint.sh

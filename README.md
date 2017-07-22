@@ -1,11 +1,9 @@
-[![](https://images.microbadger.com/badges/image/intersoftlab/duplicati.svg)](https://microbadger.com/images/intersoftlab/duplicati "Get your own image badge on microbadger.com")
-
+[![](https://images.microbadger.com/badges/image/rivy/docker.intersoftlab-duplicati:canary.svg)](https://microbadger.com/images/rivy/docker.intersoftlab-duplicati:canary "see: microbadger.com")
 # Supported tags and respective Dockerfile links #
-  - `1.3.4` [(Dockerfile)](https://github.com/dmitryint/docker-duplicati/blob/duplicati_1.3.4/Dockerfile)
-  - `1.3.4-dev` [(Dockerfile)](https://github.com/dmitryint/docker-duplicati/blob/duplicati_1.3.4-dev/Dockerfile)
-  - `2.0` [(Dockerfile)](https://github.com/dmitryint/docker-duplicati/blob/duplicati_2.0/Dockerfile)
-  - `canary`, `latest` [(Dockerfile)](https://github.com/dmitryint/docker-duplicati/blob/duplicati_canary/Dockerfile)
-  
+  - `stable` [(Dockerfile)](https://github.com/rivy/docker.intersoftlab-duplicati/blob/master/Dockerfile)
+  - `latest` [(Dockerfile)](https://github.com/rivy/docker.intersoftlab-duplicati/blob/dev/Dockerfile)
+  - `canary` [(Dockerfile)](https://github.com/rivy/docker.intersoftlab-duplicati/blob/canary/Dockerfile)
+
 # Duplicati #
 Duplicati is a backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers. It works with Amazon S3, Windows Live SkyDrive, Google Drive (Google Docs), Rackspace Cloud Files or WebDAV, SSH, FTP (and many more). Duplicati is open source and free.
 
@@ -18,7 +16,7 @@ Duplicati is licensed under LGPL and available for Windows and Linux (.NET 2.0+ 
 * Duplicati uploads a full backup initially and stores smaller, incremental updates afterwards to save bandwidth and storage space.
 * A scheduler keeps backups up-to-date automatically.
 * Encrypted backup files are transferred to targets like FTP, Cloudfiles, WebDAV, SSH (SFTP), Amazon S3 and others.
-* Duplicati allows backups of folders, document types like e.g. documents or images, or custom filter rules. 
+* Duplicati allows backups of folders, document types like e.g. documents or images, or custom filter rules.
 * Duplicati is available as application with an easy-to-use user interface and as command line tool.
 * Duplicati can make proper backups of opened or locked files using the Volume Snapshot Service (VSS) under Windows or the Logical Volume Manager (LVM) under Linux. This allows Duplicati to back up the Microsoft Outlook PST file while Outlook is running.
 
